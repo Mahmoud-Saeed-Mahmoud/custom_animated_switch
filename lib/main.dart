@@ -39,7 +39,7 @@ class _MainAppState extends State<MainApp> {
                 alignment:
                     active ? Alignment.centerRight : Alignment.centerLeft,
                 child: AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 300),
+                  duration: const Duration(milliseconds: 600),
                   transitionBuilder: (child, animation) {
                     final rotateAnimation =
                         Tween<double>(begin: 0.0, end: 1.0).animate(animation);
